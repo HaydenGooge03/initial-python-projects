@@ -1,0 +1,47 @@
+# guess resulting number magic trick
+
+# method behind magic is as follows:
+# tell user to pick any number
+# tell them to double that number
+# tell them to add (x) amount to their result ** final answer will always be 1/2 of (x) ** can use any number
+# tell them to divide by 2
+# tell them to subtract their original number from that result
+# again, final answer will always be 1/2 of the number you told them to add to their sum
+
+print("Choose a number between 1-100")
+num1 = int(input(" Enter your number : "))
+
+print("Now double that number")
+num2 = int(input(" Enter your result: "))
+
+# number is always 1/2 of this number
+print("Now add 6 to the resulting number")
+num3 = int(input(" Enter your result: "))
+
+print("Now divide the resulting number by 2")
+num4 = int(input(" Enter your result: "))
+
+print("Now if subtract the number you started with from the final result,")
+
+print("The number that you are left with is: 3", end="\n")
+
+
+input("Would you like to play again?")
+
+
+
+
+
+# figure out how to make num3 be an even, random number between 2-44 and the result to be 1/2 of that random number
+
+num1 = int(input(" Choose a number between 1-100 : "))
+
+num2 = int(input(" Now double that number : "))
+
+num3 = int(input(" Now add 6 to the resulting number : "))
+
+num4 = int(input(" Now divide the resulting number by 2: "))
+
+print(" Now if subtract the number you started with from the final result, ")
+
+print("You are left with 3!")
