@@ -1,0 +1,41 @@
+# print desired items from list
+
+
+# call on 'trek'
+bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+print(bicycles)
+print(bicycles[0])
+
+# f" string
+# print 'My first bicycle was a Redline.'
+message = f"My first bicycle was a {bicycles[2].title()}."
+print(message)
+
+# print desired items from list and capitalize name
+# print 'Wes'
+# print 'Will'
+# print 'Chase'
+friends = ['wes', 'will', 'chase']
+print(friends[0].title())
+print(friends[1].title())
+print(friends[2].title())
+
+# f" string
+# call on list item 'wes'
+message = f"What are you doing this weekend, {friends[0].title()}?"
+print(message)
+
+# Combine message with element from list ( call on list item 'harley davidson')
+motorcycles = ['harley davidson', 'honda', 'yamaha']
+message = f"One day, I would love to own a {motorcycles[0].title()}!"
+print(message)
+
+# Remove Items from List ( remove tuesday )
+days_of_week = [ 'monday', 'tuesday', 'wednesday', 'thursday','friday','saturday', 'sunday' ]
+del days_of_week[1]
+print(days_of_week)
+
+
+
+
+
